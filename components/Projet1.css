@@ -1,0 +1,60 @@
+/* Projet1.css */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.app-container {
+  background-color: white;
+  min-height: 100vh; 
+}
+
+
+
+
+h1, p, ul {
+  text-align: center; 
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #003366; 
+  margin-top: 1.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+
+
+ul li::before {
+  content: '•'; 
+  position: absolute;
+  left: 0; 
+  color: #003366; 
+}
+
+
+.image {
+  border: 0px solid #003366; 
+  border-radius: 0;
+  max-width: 70%; 
+  height: auto;
+  display: block; 
+  margin: 1rem auto; 
+  margin-top: 25%;
+}
+
+.projet1-container {
+  margin-bottom: 4rem;
+
+}
+
+

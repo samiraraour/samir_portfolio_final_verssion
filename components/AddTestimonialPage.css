@@ -1,0 +1,43 @@
+/*temoignage css*/ 
+/*style pour container temoignage*/
+.add-testimonial-container {
+  display: flex;
+  flex-direction: column; /*dispose les element en colonne*/
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: #ffffff;
+  height: 100vh;
+}
+/*style pourles champ de saisie*/
+
+.input-field {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+  color: #ffffff;
+  background-color: #0e3756;
+}
+/*style pour le bouttons submit*/
+.submit-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFD000;
+  color: #ffffff;
+  cursor: pointer; /*le curseur devient une main*/
+}
+
+.submit-button:hover {
+  background-color: #0d2f45;   /*changer couleur boutton quand on pointe*/
+}
+
+/*Le message d'erreur*/
+
+.warning {
+  color: #ff0000;
+  margin-bottom: 10px;
+}

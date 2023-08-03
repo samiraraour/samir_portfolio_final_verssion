@@ -1,0 +1,19 @@
+ul {
+    list-style-type: none; 
+  }
+  
+  
+  
+  ul li::before {
+    content: '•'; 
+    position: absolute;
+    left: 0; 
+    color: #003366; 
+  }
+
+  .col {
+    margin-bottom: 6rem;  }
+    
+    h2, p, ul {
+      text-align: center; 
+    }
